@@ -6,6 +6,7 @@ def prime?(number)
     if number%denominator == 0
       prime = FALSE
     end
+    result = number / denominator
     denominator += 1
   loop
 end
