@@ -2,6 +2,7 @@
 def prime?(number)
   prime = TRUE
   denominator = 2
+  result = number
   until denominator > result
     if number%denominator == 0
       prime = FALSE
