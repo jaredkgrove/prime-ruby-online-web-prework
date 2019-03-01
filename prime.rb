@@ -5,7 +5,7 @@ def prime?(number)
   result = number
   until denominator > result
     result = number / denominator
-    if number%denominator == 0 && denominator <> number
+    if number%denominator == 0 && denominator != number
       prime = FALSE
     end
     denominator += 1
