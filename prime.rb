@@ -9,4 +9,5 @@ def prime?(number)
     result = number / denominator
     denominator += 1
   loop
+  prime
 end
