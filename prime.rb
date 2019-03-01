@@ -3,7 +3,7 @@ def prime?(number)
   prime = TRUE
   denominator = 2
   result = number
-  if  number < 1
+  if  number < 2
     prime = FALSE
   end
   until denominator > result
