@@ -3,6 +3,9 @@ def prime?(number)
   prime = TRUE
   denominator = 2
   result = number
+  if  number < 1
+    prime = FALSE
+  end
   until denominator > result
     result = number / denominator
     if number%denominator == 0 && denominator != number
