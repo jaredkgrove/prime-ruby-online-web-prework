@@ -8,6 +8,6 @@ def prime?(number)
     end
     result = number / denominator
     denominator += 1
-  loop
+  end
   prime
 end
