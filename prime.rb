@@ -5,11 +5,11 @@ def prime?(number)
   result = number
   until denominator > result
     result = number / denominator
-    puts number 
     if (number%denominator == 0 && denominator != number) || number < 1
       prime = FALSE
     end
     denominator += 1
   end
+  puts prime
   prime
 end
