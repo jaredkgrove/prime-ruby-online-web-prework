@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   prime = TRUE
-  denominator = 1
+  denominator = 2
   until denominator > result
     if number%denominator == 0
       prime = FALSE
