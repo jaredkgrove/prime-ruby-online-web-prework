@@ -1,4 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if 
+  until denominator > result
+  
+  loop
 end
